@@ -4,15 +4,16 @@
   left: 0;
   bottom: 0;
   right: 0;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   margin: auto;
   background: gray;
-  padding: 50px;
+  padding: 1em 50px 50px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  --margin-scaler: 0;
 }
 
 .controls {
@@ -36,5 +37,9 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  overflow: scroll;
 }
 
+.image {
+  margin: calc(1% * var(--margin-scaler));
+}
