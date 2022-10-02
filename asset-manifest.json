@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Digital-Yerushalmi-example/static/css/main.7cbb354d.css",
-    "main.js": "/Digital-Yerushalmi-example/static/js/main.241804ff.js",
+    "main.css": "/Digital-Yerushalmi-example/static/css/main.cd478f61.css",
+    "main.js": "/Digital-Yerushalmi-example/static/js/main.2c5c8e85.js",
     "static/js/787.9abee7df.chunk.js": "/Digital-Yerushalmi-example/static/js/787.9abee7df.chunk.js",
     "index.html": "/Digital-Yerushalmi-example/index.html",
-    "main.7cbb354d.css.map": "/Digital-Yerushalmi-example/static/css/main.7cbb354d.css.map",
-    "main.241804ff.js.map": "/Digital-Yerushalmi-example/static/js/main.241804ff.js.map",
+    "main.cd478f61.css.map": "/Digital-Yerushalmi-example/static/css/main.cd478f61.css.map",
+    "main.2c5c8e85.js.map": "/Digital-Yerushalmi-example/static/js/main.2c5c8e85.js.map",
     "787.9abee7df.chunk.js.map": "/Digital-Yerushalmi-example/static/js/787.9abee7df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cbb354d.css",
-    "static/js/main.241804ff.js"
+    "static/css/main.cd478f61.css",
+    "static/js/main.2c5c8e85.js"
   ]
 }
