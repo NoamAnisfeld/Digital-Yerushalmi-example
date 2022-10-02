@@ -1,5 +1,5 @@
 import './App.css';
-import Popup from './components/Popup';
+import Main from './components/Main';
 
 const imageURL =
   "https://assets.talmudyerushalmi.com/manuscripts/venice/0303_FL77977460.jpg";
@@ -7,7 +7,7 @@ const imageURL =
 function App() {
   return (
     <div className="App">
-      <Popup imageURL={imageURL} />
+      <Main imageURL={imageURL} />
     </div>
   );
 }
