@@ -4,16 +4,21 @@
   left: 0;
   bottom: 0;
   right: 0;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   margin: auto;
+  background: gray;
+  padding: 50px;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-.popup > img {
-  height: 100%;
-  width: auto;
+.container {
+  background: white;
+  border: 1px solid black;
   max-width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
