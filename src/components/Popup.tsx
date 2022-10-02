@@ -9,7 +9,7 @@ export default function Popup({
         MAX_SCALE = 10,
         MIN_SCALE = -10;
 
-    const [scale, setScale] = useState(1);
+    const [scale, setScale] = useState(0);
 
     function increaseScale(scale: number) {
         if (scale >= MAX_SCALE)
