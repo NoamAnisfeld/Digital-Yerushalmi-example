@@ -24,19 +24,19 @@ main > button {
   right: 0;
   width: 50%;
   height: 50%;
+  padding: 10px;
   margin: auto;
   background: gray;
-  padding: 1em 50px 50px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+
+  display: grid;
+  grid-template-areas:  "controls"
+                        "content";
   --margin-scaler: 0;
 }
 
 .controls {
+  grid-area: controls;
   display: flex;
-  justify-content: right;
 }
 
 .controls > button {
@@ -47,9 +47,16 @@ main > button {
   vertical-align: middle;
 }
 
+.controls > .close-button {
+  margin-left: 0;
+  margin-right: auto;
+}
+
 .container {
+  grid-area: content;
   background: white;
   border: 1px solid black;
+  margin: 10px 30px;
   max-width: 100%;
   max-height: 100%;
   display: flex;

@@ -1,9 +1,11 @@
 import { useState } from "react";
 
 export default function Popup({
-    imageURL
+    imageURL,
+    close,
 }: {
-    imageURL: string
+    imageURL: string,
+    close: () => void,
 }) {
     const
         MAX_SCALE = 10,
@@ -39,6 +41,9 @@ export default function Popup({
         '--margin-scaler': scaleToMarginEffect(scale)
     } as { [key: string]: string | number } }>
         <div className="controls">
+            <button type="button" className="close-button"
+                onClick={close}
+            >X</button>
             <button type="button"
                 onClick={() => setScale(decreaseScale)}
             >-</button>

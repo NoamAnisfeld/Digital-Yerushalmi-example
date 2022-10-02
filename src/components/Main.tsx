@@ -14,7 +14,9 @@ export default function Main({
         >
             Show popup
         </button>
-        {popupOpened ? <Popup imageURL={imageURL} /> : undefined}
+        {popupOpened ?
+        <Popup imageURL={imageURL} close={() => setPopupOpened(false)} />
+        : undefined}
     </main>
 
 }
